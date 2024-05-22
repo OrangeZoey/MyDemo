@@ -1,0 +1,1698 @@
+Using pre-set license
+Built from '2022.3/china_unity/release' branch; Version is '2022.3.17f1c1 (a01dafa986ec) revision 10493359'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 16144 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\SchoolLoad\UnityHub\2022.3.17f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+D:/SchoolLoad/UnityHub/demo/Practice/PlaneClient
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+8206
+Successfully changed project path to: D:/SchoolLoad/UnityHub/demo/Practice/PlaneClient
+D:/SchoolLoad/UnityHub/demo/Practice/PlaneClient
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [27456] Host "[IP] 10.161.29.102 [Port] 0 [Flags] 2 [Guid] 3917000179 [EditorId] 3917000179 [Version] 1048832 [Id] WindowsEditor(7,小橘) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [27456] Host "[IP] 10.161.29.102 [Port] 0 [Flags] 2 [Guid] 3917000179 [EditorId] 3917000179 [Version] 1048832 [Id] WindowsEditor(7,小橘) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
+Refreshing native plugins compatible for Editor in 22.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.17f1c1 (a01dafa986ec)
+[Subsystems] Discovering subsystems at path D:/SchoolLoad/UnityHub/2022.3.17f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/SchoolLoad/UnityHub/demo/Practice/PlaneClient/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f15)
+    Vendor:   NVIDIA
+    VRAM:     5969 MB
+    Driver:   31.0.15.4609
+Initialize mono
+Mono path[0] = 'D:/SchoolLoad/UnityHub/2022.3.17f1c1/Editor/Data/Managed'
+Mono path[1] = 'D:/SchoolLoad/UnityHub/2022.3.17f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/SchoolLoad/UnityHub/2022.3.17f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56236
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/SchoolLoad/UnityHub/2022.3.17f1c1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/SchoolLoad/UnityHub/2022.3.17f1c1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: D:/SchoolLoad/UnityHub/2022.3.17f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.016359 seconds.
+- Loaded All Assemblies, in  0.562 seconds
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 372 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.894 seconds
+Domain Reload Profiling: 1453ms
+	BeginReloadAssembly (163ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (85ms)
+	LoadAllAssembliesAndSetupDomain (247ms)
+		LoadAssemblies (158ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (244ms)
+			TypeCache.Refresh (241ms)
+				TypeCache.ScanAssembly (214ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (895ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (818ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (550ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (190ms)
+			ProcessInitializeOnLoadMethodAttributes (68ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.287 seconds
+Refreshing native plugins compatible for Editor in 6.05 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.325 seconds
+Domain Reload Profiling: 2605ms
+	BeginReloadAssembly (240ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (73ms)
+	LoadAllAssembliesAndSetupDomain (902ms)
+		LoadAssemblies (713ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (340ms)
+			TypeCache.Refresh (309ms)
+				TypeCache.ScanAssembly (279ms)
+			ScanForSourceGeneratedMonoScriptInfo (22ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1326ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1072ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (76ms)
+			SetLoadedEditorAssemblies (14ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (147ms)
+			ProcessInitializeOnLoadAttributes (794ms)
+			ProcessInitializeOnLoadMethodAttributes (30ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 13.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3086 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (57.3 KB). Loaded Objects now: 3550.
+Memory consumption went from 128.1 MB to 128.0 MB.
+Total: 9.634100 ms (FindLiveObjects: 0.503500 ms CreateObjectMapping: 0.471500 ms MarkObjects: 8.467800 ms  DeleteObjects: 0.189700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 181133.604419 seconds.
+  path: Assets/Lowpoly Style/Alpine Woodland/Prefabs/Tent1.prefab
+  artifactKey: Guid(f60396d1bcb5c7540b2f66c3d39dd57d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Alpine Woodland/Prefabs/Tent1.prefab using Guid(f60396d1bcb5c7540b2f66c3d39dd57d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4fde91359642c761958963c3ee6106ae') in 0.174494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Lowpoly Style/Alpine Woodland/Prefabs/Signpost2.prefab
+  artifactKey: Guid(b0552017f9b56b34a80886463367e4ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Alpine Woodland/Prefabs/Signpost2.prefab using Guid(b0552017f9b56b34a80886463367e4ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e869eceb353fea37e5854a1f323f02d9') in 0.032687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Lowpoly Style/Shared Materials and Textures/MAT_RED_LEAVES.mat
+  artifactKey: Guid(03e00eacb865122478a8ce9c9d1fd2e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared Materials and Textures/MAT_RED_LEAVES.mat using Guid(03e00eacb865122478a8ce9c9d1fd2e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bd42a09f7fb29afd505f6a8b790b8595') in 0.103891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Lowpoly Style/Alpine Woodland/DemoScene/AlpineWoodlandDemo.unity
+  artifactKey: Guid(44004d143d27cd84299593592c4f9a29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Alpine Woodland/DemoScene/AlpineWoodlandDemo.unity using Guid(44004d143d27cd84299593592c4f9a29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c2c62eeb4e5aa1b037200a5aa23bff2b') in 0.016263 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Lowpoly Style/Alpine Woodland/Prefabs/OldStoneWall.prefab
+  artifactKey: Guid(b18f73484d83f8c4ea93a8a2fb0c8141) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Alpine Woodland/Prefabs/OldStoneWall.prefab using Guid(b18f73484d83f8c4ea93a8a2fb0c8141) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f0a89e715b9df910bd331547ffec70db') in 0.031242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Lowpoly Style/Alpine Woodland/Prefabs/CubicRocksGrey.prefab
+  artifactKey: Guid(692c1d404d84db94e8992449125bf6b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Alpine Woodland/Prefabs/CubicRocksGrey.prefab using Guid(692c1d404d84db94e8992449125bf6b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'adeece665632d8621aeac384cefd4327') in 0.028792 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Lowpoly Style/Arctic Tundra/Prefabs/BigCliff.prefab
+  artifactKey: Guid(9fa980fd96e005245ab5bfc6ac684e4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Arctic Tundra/Prefabs/BigCliff.prefab using Guid(9fa980fd96e005245ab5bfc6ac684e4e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5c995125fde0ef665324615721c38585') in 0.034093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Lowpoly Style/Shared Scripts/UVOffset.cs
+  artifactKey: Guid(2c9c36f202021164ba042a939b6061a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared Scripts/UVOffset.cs using Guid(2c9c36f202021164ba042a939b6061a5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '95291381e3205262203007ebe45dcdef') in 0.022166 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Lowpoly Style/Shared Materials and Textures/MAT_ROOFTILE.mat
+  artifactKey: Guid(5be59a0aa275e894a877f584e5818669) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared Materials and Textures/MAT_ROOFTILE.mat using Guid(5be59a0aa275e894a877f584e5818669) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '14cd36f5d258322161159fdf23637917') in 0.166832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Lowpoly Style/Alpine Woodland/Prefabs/Bench1.prefab
+  artifactKey: Guid(48436bba6aeee4d43b9c9e648f23a592) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Alpine Woodland/Prefabs/Bench1.prefab using Guid(48436bba6aeee4d43b9c9e648f23a592) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '38183e502af4a343de0f4f4403086fa1') in 0.026013 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Lowpoly Style/Alpine Woodland/Prefabs/WaterLilies.prefab
+  artifactKey: Guid(1744ddbece611874a9dfd51e8d8e5060) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Alpine Woodland/Prefabs/WaterLilies.prefab using Guid(1744ddbece611874a9dfd51e8d8e5060) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '13fce8724399c04c498734d90ddb72ce') in 0.024861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Lowpoly Style/Asia/Prefabs/AsianHouse_2_RockBase.prefab
+  artifactKey: Guid(4ec246fd8a45e9641a128a6429f3abd4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Asia/Prefabs/AsianHouse_2_RockBase.prefab using Guid(4ec246fd8a45e9641a128a6429f3abd4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b07238677f6e69cc9d1472dee95303e4') in 0.024557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 48
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Lowpoly Style/Arctic Tundra/Prefabs/SnowyTownHouse1.prefab
+  artifactKey: Guid(cfd97e72a86bf084a98c4e58c7fb62c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Arctic Tundra/Prefabs/SnowyTownHouse1.prefab using Guid(cfd97e72a86bf084a98c4e58c7fb62c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '119ad671d2f3da7412e19fc05b2a8dbe') in 0.024663 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Lowpoly Style/Arctic Tundra/DemoScene/Tundra_PPP_V1_Linear.asset
+  artifactKey: Guid(bc3a05dbd58899541bb6f4b782986491) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Arctic Tundra/DemoScene/Tundra_PPP_V1_Linear.asset using Guid(bc3a05dbd58899541bb6f4b782986491) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2221505a875e41b013093412a4b7c186') in 0.016912 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Lowpoly Style/Shared Materials and Textures/MAT_MAIN.mat
+  artifactKey: Guid(b218d35c8dc65164892039ea0aea3b4b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared Materials and Textures/MAT_MAIN.mat using Guid(b218d35c8dc65164892039ea0aea3b4b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '58870af0f0927de4813b9234578556d8') in 0.028251 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Lowpoly Style/Alpine Woodland/Prefabs/RockGrey2.prefab
+  artifactKey: Guid(0b507fc630af57748b49929a85bad1f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Alpine Woodland/Prefabs/RockGrey2.prefab using Guid(0b507fc630af57748b49929a85bad1f4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1c7b6de220da1e71685c4a1a00c97ba7') in 0.027102 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Lowpoly Style/Arctic Tundra/Prefabs/SnowyRock1.prefab
+  artifactKey: Guid(a95cb6b4e170fc8449a186e245d254e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Arctic Tundra/Prefabs/SnowyRock1.prefab using Guid(a95cb6b4e170fc8449a186e245d254e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8b9857011888bc185f44f7f6c44ac864') in 0.027571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Lowpoly Style/Shared Scripts/FlickerLight.cs
+  artifactKey: Guid(5fc861774284aba438c69fdfc8177804) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared Scripts/FlickerLight.cs using Guid(5fc861774284aba438c69fdfc8177804) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0eaf06b90892add8929d5d5c615bb349') in 0.017183 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Lowpoly Style/Arctic Tundra/Prefabs/Street.prefab
+  artifactKey: Guid(43ccada6edf137d45a1a61238462411e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Arctic Tundra/Prefabs/Street.prefab using Guid(43ccada6edf137d45a1a61238462411e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2b26d221e110804ce4751c3dd530f6b6') in 0.032248 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Lowpoly Style/Alpine Woodland/Prefabs/RockGrey3.prefab
+  artifactKey: Guid(dc170f4a3ac072048b9e980741856d82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Alpine Woodland/Prefabs/RockGrey3.prefab using Guid(dc170f4a3ac072048b9e980741856d82) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8bc175d93c34b64b119daa194574a243') in 0.032808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Lowpoly Style/Shared Materials and Textures/FarTree1.psd
+  artifactKey: Guid(a9fddaffa14dc8a499de22ab06147881) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared Materials and Textures/FarTree1.psd using Guid(a9fddaffa14dc8a499de22ab06147881) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6afe6e27dddc85cbc429c8b49c118690') in 0.138818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Lowpoly Style/Arctic Tundra/DemoScene/TundraProbeWater.exr
+  artifactKey: Guid(bcf685df0d4d9ce47b6ebb1a20fbeb63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Arctic Tundra/DemoScene/TundraProbeWater.exr using Guid(bcf685df0d4d9ce47b6ebb1a20fbeb63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b2d4c5d1e3b3ffdfde534761945a2874') in 0.052126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Lowpoly Style/Arctic Tundra/Prefabs/SnowyMarketStand.prefab
+  artifactKey: Guid(55fe0e410f2194a47adf278fe59cf437) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Arctic Tundra/Prefabs/SnowyMarketStand.prefab using Guid(55fe0e410f2194a47adf278fe59cf437) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '66ae6f4ac75a2b2d170989433b245df0') in 0.036124 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Lowpoly Style/Alpine Woodland/Prefabs/WoodenWall1.prefab
+  artifactKey: Guid(7a659e5cb7951c542bc517b94f4bcea9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Alpine Woodland/Prefabs/WoodenWall1.prefab using Guid(7a659e5cb7951c542bc517b94f4bcea9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cf1c9b313b78baea913011cced171aa4') in 0.028367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Lowpoly Style/Asia/Prefabs/AsianHouse2_WoodBase.prefab
+  artifactKey: Guid(3447ef148ee565c4ea1b70357a8657bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Asia/Prefabs/AsianHouse2_WoodBase.prefab using Guid(3447ef148ee565c4ea1b70357a8657bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2a1664974add90e03cdd195095f31105') in 0.025470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 56
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Lowpoly Style/Arctic Tundra/Prefabs/SnowyDeadTree2.prefab
+  artifactKey: Guid(da1c6cde83c1e90409324bab7d35cec5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Arctic Tundra/Prefabs/SnowyDeadTree2.prefab using Guid(da1c6cde83c1e90409324bab7d35cec5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '853fbf72c484c1b52eb91cf96067f6aa') in 0.038915 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Lowpoly Style/Alpine Woodland/Prefabs/AgaveLow.prefab
+  artifactKey: Guid(9c9807f75889e994094efd930fe03ca8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Alpine Woodland/Prefabs/AgaveLow.prefab using Guid(9c9807f75889e994094efd930fe03ca8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'adddf1d2d8a3438fa40b9ebfc53e2af1') in 0.030910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Lowpoly Style/Alpine Woodland/Prefabs/TreeDead2.prefab
+  artifactKey: Guid(678429f297747e8419af735ad3d79c24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Alpine Woodland/Prefabs/TreeDead2.prefab using Guid(678429f297747e8419af735ad3d79c24) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c10e40fefbd869f89c9a14acd2b21e70') in 0.027361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Lowpoly Style/Asia/Prefabs/ShadeRed.prefab
+  artifactKey: Guid(014a884fc056aff458dd99d1629affb0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Asia/Prefabs/ShadeRed.prefab using Guid(014a884fc056aff458dd99d1629affb0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '39abcc2224a8bcc80953b1c32ae444e2') in 0.023971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Lowpoly Style/Asia/Prefabs/FenceGate.prefab
+  artifactKey: Guid(730ef64c47f0e094f9d44d003799fdf0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Asia/Prefabs/FenceGate.prefab using Guid(730ef64c47f0e094f9d44d003799fdf0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f53258d6354d0fc4d8a7f5c84178e37d') in 0.025327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Lowpoly Style/Asia/Prefabs/Cliff_Temple_Cavern_Buddha.prefab
+  artifactKey: Guid(964750a9b8e42cf4aa86b2376c12f5f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Asia/Prefabs/Cliff_Temple_Cavern_Buddha.prefab using Guid(964750a9b8e42cf4aa86b2376c12f5f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6488a15677004246e8c7971088f2eee0') in 0.052755 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 193
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Lowpoly Style/Asia/Prefabs/Torii.prefab
+  artifactKey: Guid(3e86e45c21fb88f4aa53026a9ce489eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Asia/Prefabs/Torii.prefab using Guid(3e86e45c21fb88f4aa53026a9ce489eb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '32fc1aba7c3c685d188e67cf637f2757') in 0.035710 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Lowpoly Style/Asia/Prefabs/TerrainC.prefab
+  artifactKey: Guid(3fd45bf28ef4c684e81c4fc173592bac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Asia/Prefabs/TerrainC.prefab using Guid(3fd45bf28ef4c684e81c4fc173592bac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eccb351e36f8b31b1c4a813acbc86c32') in 0.028250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Lowpoly Style/Asia/Prefabs/WoodStair.prefab
+  artifactKey: Guid(929c88d4479cc224bbfec2d508e67377) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Asia/Prefabs/WoodStair.prefab using Guid(929c88d4479cc224bbfec2d508e67377) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '38aefd6bfbe8a6a911ed720fe8933b1d') in 0.025158 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Lowpoly Style/Asia/Prefabs/AsianHouse_Big3_RockBaseM.prefab
+  artifactKey: Guid(dfb9bbc5b1991ec4984e2482f1d09b79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Asia/Prefabs/AsianHouse_Big3_RockBaseM.prefab using Guid(dfb9bbc5b1991ec4984e2482f1d09b79) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0bfe804de4d369fcd31d269965d4d6f0') in 0.020366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 47
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Lowpoly Style/Alpine Woodland/Prefabs/WoodenHouse1.prefab
+  artifactKey: Guid(64c6e0e4b7aac8d4ea7a68eaf9d54b7d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Alpine Woodland/Prefabs/WoodenHouse1.prefab using Guid(64c6e0e4b7aac8d4ea7a68eaf9d54b7d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '96fa6189294c8c945dee3db77513139e') in 0.025259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Lowpoly Style/Asia/Prefabs/Fence3.prefab
+  artifactKey: Guid(22298fb486c08c74bb6c795f50e69967) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Asia/Prefabs/Fence3.prefab using Guid(22298fb486c08c74bb6c795f50e69967) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cedd321c84d0b93c3dc93b4ba70fcd49') in 0.027197 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Lowpoly Style/Arctic Tundra/Prefabs/SnowySignpost.prefab
+  artifactKey: Guid(37aeb717fa303724db2a16754f0edc8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Arctic Tundra/Prefabs/SnowySignpost.prefab using Guid(37aeb717fa303724db2a16754f0edc8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '31db6198aac88a3dc5390481af499425') in 0.031443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Lowpoly Style/Alpine Woodland/Prefabs/GrassHillFlat.prefab
+  artifactKey: Guid(000822f569a208c4ba124d52aac8a9e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Alpine Woodland/Prefabs/GrassHillFlat.prefab using Guid(000822f569a208c4ba124d52aac8a9e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '02a171e5c93ee9e3015cdd3c28b02da9') in 0.026892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Lowpoly Style/Arctic Tundra/Prefabs/SnowyPierPole.prefab
+  artifactKey: Guid(9350b2a04740a71479c8f7ff3f9dd8b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Arctic Tundra/Prefabs/SnowyPierPole.prefab using Guid(9350b2a04740a71479c8f7ff3f9dd8b4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '91fdb1ff839ec88cb4c73d7b4d0892ed') in 0.026902 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Lowpoly Style/Asia/Prefabs/TerrainA.prefab
+  artifactKey: Guid(74169d3d6c2bfb346b4e51c8ae3e0c9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Asia/Prefabs/TerrainA.prefab using Guid(74169d3d6c2bfb346b4e51c8ae3e0c9f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c908df036a3787f1bc94de02ddb49626') in 0.024364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Lowpoly Style/Asia/Prefabs/Base.prefab
+  artifactKey: Guid(76c2a0a1776bbc94ca3cd9a49a7a2f0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Asia/Prefabs/Base.prefab using Guid(76c2a0a1776bbc94ca3cd9a49a7a2f0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ee6228420c7a484007a22be41acf494e') in 0.023742 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Lowpoly Style/Asia/Prefabs/TerrainB.prefab
+  artifactKey: Guid(adf4a7b63fa19d9429653113f2442e3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Asia/Prefabs/TerrainB.prefab using Guid(adf4a7b63fa19d9429653113f2442e3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7d437b88e4d22ca01c915340e14ce431') in 0.025107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Lowpoly Style/Asia/Prefabs/FenceL.prefab
+  artifactKey: Guid(4ea34be55edf8c7459969bdd8599e9f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Asia/Prefabs/FenceL.prefab using Guid(4ea34be55edf8c7459969bdd8599e9f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4ed1f96ba21d47715823e9b017ff3fe1') in 0.024781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Lowpoly Style/Asia/Prefabs/Rock.prefab
+  artifactKey: Guid(3c30f9cb751347f47a099160267869ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Asia/Prefabs/Rock.prefab using Guid(3c30f9cb751347f47a099160267869ae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ae1db240b2785a76af07c8b68e535a2f') in 0.023361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Lowpoly Style/Asia/Prefabs/Salad.prefab
+  artifactKey: Guid(71d1d52dc897dfd4990c775cecdaa02b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Asia/Prefabs/Salad.prefab using Guid(71d1d52dc897dfd4990c775cecdaa02b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '482f194ae8fc6d694883495100b35118') in 0.024156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Lowpoly Style/Asia/Prefabs/RockFormation2.prefab
+  artifactKey: Guid(ef9b84c44e78c8947985155bc0c70c6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Asia/Prefabs/RockFormation2.prefab using Guid(ef9b84c44e78c8947985155bc0c70c6b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4203097f241b1733f482703274b13417') in 0.026849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Lowpoly Style/Asia/Prefabs/WoodenWalkEdge.prefab
+  artifactKey: Guid(2daf6f02db40a7745947d938d413c9e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Asia/Prefabs/WoodenWalkEdge.prefab using Guid(2daf6f02db40a7745947d938d413c9e6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6fdb480e43bfec34512fb3e325102de9') in 0.032953 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Lowpoly Style/Desert/Prefabs/OldWall3.prefab
+  artifactKey: Guid(d25803a31803c3e46852b7f73a6a43a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Desert/Prefabs/OldWall3.prefab using Guid(d25803a31803c3e46852b7f73a6a43a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '072df8e6078f018becc88fadc08c1451') in 0.029923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Lowpoly Style/Desert/Prefabs/Fence1.prefab
+  artifactKey: Guid(c4d10e880f8a18b499138fb07d6f4212) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Desert/Prefabs/Fence1.prefab using Guid(c4d10e880f8a18b499138fb07d6f4212) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd849c66e4f0526d2b32d327e14e58fd9') in 0.023571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Lowpoly Style/Desert/Prefabs/CookingFireplace.prefab
+  artifactKey: Guid(a0df47329a427514e90f8a03566796f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Desert/Prefabs/CookingFireplace.prefab using Guid(a0df47329a427514e90f8a03566796f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b1ac72207c2fb7ea21622e0464bbacdc') in 0.027945 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Lowpoly Style/Desert/Prefabs/WoodenWall1.prefab
+  artifactKey: Guid(a09b5cb7ef8802940af491778561a63a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Desert/Prefabs/WoodenWall1.prefab using Guid(a09b5cb7ef8802940af491778561a63a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '127809a6e06d12f1adf1443a88b7cf73') in 0.025400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Lowpoly Style/ForestPack/DemoScene/Forest_PPP_V1_Linear.asset
+  artifactKey: Guid(ba166d24cbbf0244f959ae506d8f7628) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/ForestPack/DemoScene/Forest_PPP_V1_Linear.asset using Guid(ba166d24cbbf0244f959ae506d8f7628) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'da8c5d01da00c959205275d638faf64c') in 0.015361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Lowpoly Style/Desert/Prefabs/RockGrey2_high.prefab
+  artifactKey: Guid(9bdb0a940fd1a9c4db8dd4ee29fc9066) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Desert/Prefabs/RockGrey2_high.prefab using Guid(9bdb0a940fd1a9c4db8dd4ee29fc9066) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a83c0856aa827e4b6ae8b83c049a6710') in 0.025531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Lowpoly Style/Desert/Prefabs/WoodenPole1.prefab
+  artifactKey: Guid(f131f3b33da4fbc4ba50d840961d1041) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Desert/Prefabs/WoodenPole1.prefab using Guid(f131f3b33da4fbc4ba50d840961d1041) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '56dceb2ea4afe90515d7da0037cb12e6') in 0.021976 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Lowpoly Style/ForestPack/DemoScene/Forest.unity
+  artifactKey: Guid(3a7fae7730558744a87c69378a8aa5bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/ForestPack/DemoScene/Forest.unity using Guid(3a7fae7730558744a87c69378a8aa5bb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3d87ccd17c523724468a4314227c397e') in 0.012573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Lowpoly Style/Desert/Prefabs/SaguaroCactus2.prefab
+  artifactKey: Guid(4654b9ddec059b94291a155d1c0a9d13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Desert/Prefabs/SaguaroCactus2.prefab using Guid(4654b9ddec059b94291a155d1c0a9d13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '085c19be02c418e93955a7d271c8566a') in 0.028432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Lowpoly Style/Desert/Prefabs/TorchSmall.prefab
+  artifactKey: Guid(1f782ade1705bca488bdcac46c171140) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Desert/Prefabs/TorchSmall.prefab using Guid(1f782ade1705bca488bdcac46c171140) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6edcfaec833d7540a5243672c5c6474c') in 0.024526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Lowpoly Style/ForestPack/Prefabs/Conifer2_Low.prefab
+  artifactKey: Guid(566a3d4ae392f68468089d7a53e1f985) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/ForestPack/Prefabs/Conifer2_Low.prefab using Guid(566a3d4ae392f68468089d7a53e1f985) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'babaedaa98074b8b0dd194b568a84b4c') in 0.023659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Lowpoly Style/Desert/Prefabs/SaguaroCactus1.prefab
+  artifactKey: Guid(130a87a42aab600488e37e364f86e57d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Desert/Prefabs/SaguaroCactus1.prefab using Guid(130a87a42aab600488e37e364f86e57d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '17292ca7c2054714443715c087ba8e48') in 0.026818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Lowpoly Style/Desert/Prefabs/OldWall2.prefab
+  artifactKey: Guid(e43c5b775bf206f4c9cd943f86683472) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Desert/Prefabs/OldWall2.prefab using Guid(e43c5b775bf206f4c9cd943f86683472) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6aa4963fd69e0c81168538292fcdac74') in 0.026548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Lowpoly Style/ForestPack/Prefabs/Conifer_Proxy.prefab
+  artifactKey: Guid(d75f32ad1b2a5904b933319a60c94cf9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/ForestPack/Prefabs/Conifer_Proxy.prefab using Guid(d75f32ad1b2a5904b933319a60c94cf9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '31149e265ecfbc9e9b16794d03cf5347') in 0.020359 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Lowpoly Style/Desert/Prefabs/CactusMini.prefab
+  artifactKey: Guid(854fa39bf6c066247b654c13a48dc84b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Desert/Prefabs/CactusMini.prefab using Guid(854fa39bf6c066247b654c13a48dc84b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '287db649c6222c7002522a13dd4e4795') in 0.024048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Lowpoly Style/ForestPack/Prefabs/Conifer2_Distant.prefab
+  artifactKey: Guid(a63c539d4a2a1824fbc5018158426484) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/ForestPack/Prefabs/Conifer2_Distant.prefab using Guid(a63c539d4a2a1824fbc5018158426484) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '65b3daf6e4bc26011635ba6841ac6a54') in 0.025004 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Lowpoly Style/ForestPack/DemoScene/RP_VALLEY.exr
+  artifactKey: Guid(47abe2a2c1d3e0947b6371005e084170) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/ForestPack/DemoScene/RP_VALLEY.exr using Guid(47abe2a2c1d3e0947b6371005e084170) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1584826275804bce376a04592b23acc6') in 0.040181 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Lowpoly Style/Desert/Prefabs/OldWall1.prefab
+  artifactKey: Guid(e2403152689f6fd438fe098277b0a790) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Desert/Prefabs/OldWall1.prefab using Guid(e2403152689f6fd438fe098277b0a790) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b58ec039c2f2252b38504196240ac951') in 0.025361 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Lowpoly Style/Desert/Prefabs/WoodenWallDamaged1.prefab
+  artifactKey: Guid(ba3f7d34ad82e754b84ec272133c5f0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Desert/Prefabs/WoodenWallDamaged1.prefab using Guid(ba3f7d34ad82e754b84ec272133c5f0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ebeaa02ca52e25813106e7b90d56e937') in 0.030921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Lowpoly Style/ForestPack/Prefabs/TreeDead1.prefab
+  artifactKey: Guid(63f03ab865b4a4f41918da8dc3287175) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/ForestPack/Prefabs/TreeDead1.prefab using Guid(63f03ab865b4a4f41918da8dc3287175) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9a054d350ad20a15e68773b66dce8573') in 0.025722 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Lowpoly Style/ForestPack/WaterfallParticles/ParticleCloudWhite.png
+  artifactKey: Guid(5b303ff28ad9368468a2edd759cf458d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/ForestPack/WaterfallParticles/ParticleCloudWhite.png using Guid(5b303ff28ad9368468a2edd759cf458d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9bb0a535e062e5323270849f9cb00c40') in 0.045246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Lowpoly Style/Shared FBX Meshes/Buildings and  Structures/MarketStand.fbx
+  artifactKey: Guid(791ed9bbcf35b5448bac04df428defaf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared FBX Meshes/Buildings and  Structures/MarketStand.fbx using Guid(791ed9bbcf35b5448bac04df428defaf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3d6c93b448482523ba7ee44124741fe2') in 0.075522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Lowpoly Style/Shared FBX Meshes/Buildings and  Structures/House1.fbx
+  artifactKey: Guid(9c235a1bbdc735843af8152e3fb4808a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared FBX Meshes/Buildings and  Structures/House1.fbx using Guid(9c235a1bbdc735843af8152e3fb4808a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dbe0d3ef90273882bbafb5c64071ebe5') in 0.046309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Lowpoly Style/Shared FBX Meshes/Buildings and  Structures/HouseTropical1.fbx
+  artifactKey: Guid(faa64aadcd30f144b8b3dfdb04761b46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared FBX Meshes/Buildings and  Structures/HouseTropical1.fbx using Guid(faa64aadcd30f144b8b3dfdb04761b46) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0fc93a611b59acd61635c5c20ae4ed44') in 0.050642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Lowpoly Style/Shared FBX Meshes/Buildings and  Structures/SmallHut.fbx
+  artifactKey: Guid(d75c9e25fb66e3e4f9a4d52510f72b61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared FBX Meshes/Buildings and  Structures/SmallHut.fbx using Guid(d75c9e25fb66e3e4f9a4d52510f72b61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a74f0fc04245c3daeeecb789f52e4325') in 0.044328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Lowpoly Style/ForestPack/Prefabs/HangingBridge.prefab
+  artifactKey: Guid(b3359a8d43e26ad4cb5971dea869bbe4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/ForestPack/Prefabs/HangingBridge.prefab using Guid(b3359a8d43e26ad4cb5971dea869bbe4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9a42f6a8e225f9496d95f713f0bf8bfd') in 0.025911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Lowpoly Style/Shared FBX Meshes/Buildings and  Structures/Wall_u.fbx
+  artifactKey: Guid(d9e380ccb44edc04a9d7e2b6e434cbf4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared FBX Meshes/Buildings and  Structures/Wall_u.fbx using Guid(d9e380ccb44edc04a9d7e2b6e434cbf4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '28f93855ec590a9470241594832a3ef7') in 0.039859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Lowpoly Style/ForestPack/Prefabs/WoodenPole1.prefab
+  artifactKey: Guid(e63b5589d71179740828a694c8cb8b3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/ForestPack/Prefabs/WoodenPole1.prefab using Guid(e63b5589d71179740828a694c8cb8b3c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9cdf4c7459c63e05c2dad8c16a5911cb') in 0.022152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Lowpoly Style/Shared FBX Meshes/Buildings and  Structures/PierTile.fbx
+  artifactKey: Guid(a29ac17ddb7a5a34aa005b2c2cd44708) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared FBX Meshes/Buildings and  Structures/PierTile.fbx using Guid(a29ac17ddb7a5a34aa005b2c2cd44708) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5733cc2302d3b9b28649f910fe9188ff') in 0.036424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Lowpoly Style/Shared FBX Meshes/Buildings and  Structures/AsianHouse_2.fbx
+  artifactKey: Guid(c849704e4e468354a95b88ddc79f45d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared FBX Meshes/Buildings and  Structures/AsianHouse_2.fbx using Guid(c849704e4e468354a95b88ddc79f45d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5137ed66dbf8a8fa679fdd2ed67123bf') in 0.052589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Lowpoly Style/Shared FBX Meshes/Buildings and  Structures/SnowyPierStart.fbx
+  artifactKey: Guid(72495565f2b0a244b8d902a9f70a94f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared FBX Meshes/Buildings and  Structures/SnowyPierStart.fbx using Guid(72495565f2b0a244b8d902a9f70a94f1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '29c191f979adafb971fa9dc64bd87a57') in 0.037008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Lowpoly Style/Shared FBX Meshes/Items and Decoration/Campfire.fbx
+  artifactKey: Guid(9089a0e86b0a98446b2fa52344650a92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared FBX Meshes/Items and Decoration/Campfire.fbx using Guid(9089a0e86b0a98446b2fa52344650a92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a5b1cf75af70799cb546eb32ad3311fa') in 0.040921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Lowpoly Style/Shared FBX Meshes/Items and Decoration/FishGrillStickSilver.fbx
+  artifactKey: Guid(701e8204bda3adc45bf4fd555a20a9c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared FBX Meshes/Items and Decoration/FishGrillStickSilver.fbx using Guid(701e8204bda3adc45bf4fd555a20a9c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5fc5f30a3fdb8e807ff7224201ded143') in 0.037709 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Lowpoly Style/Shared FBX Meshes/Items and Decoration/LanternPole.fbx
+  artifactKey: Guid(b04d4c2180037634092402abfcf7785f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared FBX Meshes/Items and Decoration/LanternPole.fbx using Guid(b04d4c2180037634092402abfcf7785f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8f68d712288a1a7e7df2a540665ee6da') in 0.039722 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Lowpoly Style/Shared FBX Meshes/Items and Decoration/BuddhaStatue.fbx
+  artifactKey: Guid(bf1b5a102bfe3cc459b2bc2004d32c05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared FBX Meshes/Items and Decoration/BuddhaStatue.fbx using Guid(bf1b5a102bfe3cc459b2bc2004d32c05) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ff484b395628dae0a1aa0e06a92d78bf') in 0.042128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Lowpoly Style/Shared FBX Meshes/Collision/RockBase1_CollMesh.fbx
+  artifactKey: Guid(a6c29b4827699da469d6a61cf50ffa66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared FBX Meshes/Collision/RockBase1_CollMesh.fbx using Guid(a6c29b4827699da469d6a61cf50ffa66) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0e589ea40701b6d446f38aeba6c9662a') in 0.045061 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Lowpoly Style/Shared FBX Meshes/Items and Decoration/Fence1.fbx
+  artifactKey: Guid(f3fc53413bbf70541b2393225fc54970) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared FBX Meshes/Items and Decoration/Fence1.fbx using Guid(f3fc53413bbf70541b2393225fc54970) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8a6a1b385b0a6a3338b11fcab4c3912b') in 0.040702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Lowpoly Style/Shared FBX Meshes/Items and Decoration/OldStoneWall.fbx
+  artifactKey: Guid(77d2a70a159821845af6257a8131a10d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared FBX Meshes/Items and Decoration/OldStoneWall.fbx using Guid(77d2a70a159821845af6257a8131a10d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cf9631ac47a6a7e126725b4078f67bec') in 0.041840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Lowpoly Style/Shared FBX Meshes/Items and Decoration/CampFireWinter.fbx
+  artifactKey: Guid(5ccf1cc4294a6844389bb2ed4863435b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared FBX Meshes/Items and Decoration/CampFireWinter.fbx using Guid(5ccf1cc4294a6844389bb2ed4863435b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5efec6e4ec5631b2f9b4f303149541a4') in 0.039124 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Lowpoly Style/Shared FBX Meshes/Items and Decoration/Candles.fbx
+  artifactKey: Guid(bb3eadd03c470824db182308c434f16f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared FBX Meshes/Items and Decoration/Candles.fbx using Guid(bb3eadd03c470824db182308c434f16f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9bdd2a48a0f445e664f624296544340b') in 0.040482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Lowpoly Style/Shared FBX Meshes/Items and Decoration/HangingFireBowl.fbx
+  artifactKey: Guid(a88f8d0136adf734fbc5177e76733dec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared FBX Meshes/Items and Decoration/HangingFireBowl.fbx using Guid(a88f8d0136adf734fbc5177e76733dec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'abcf9011dcf4440abd2d47c8104b1fef') in 0.042827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Lowpoly Style/Shared FBX Meshes/Buildings and  Structures/Torii.fbx
+  artifactKey: Guid(628907ba1b530414b815e7d4f1184a02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared FBX Meshes/Buildings and  Structures/Torii.fbx using Guid(628907ba1b530414b815e7d4f1184a02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '291624f80e6b492ca59253c9516a52f8') in 0.041250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Lowpoly Style/Shared FBX Meshes/Items and Decoration/FenceAsia1.fbx
+  artifactKey: Guid(efbaef0d0811eca48baa6f72d7919d2a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared FBX Meshes/Items and Decoration/FenceAsia1.fbx using Guid(efbaef0d0811eca48baa6f72d7919d2a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ab1fab569b064912f269ed307d5334d3') in 0.039420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Lowpoly Style/Shared FBX Meshes/Plants/AgaveHigh.fbx
+  artifactKey: Guid(4e6a053eeddbb8f41a97b84a907ca4d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared FBX Meshes/Plants/AgaveHigh.fbx using Guid(4e6a053eeddbb8f41a97b84a907ca4d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '86a26b0fd5b343360c55338bb6cf3d79') in 0.044651 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Lowpoly Style/Shared FBX Meshes/Items and Decoration/Temple_Stairs.fbx
+  artifactKey: Guid(b8b1f801274b6b94bb67de57592fff38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared FBX Meshes/Items and Decoration/Temple_Stairs.fbx using Guid(b8b1f801274b6b94bb67de57592fff38) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9f110c9e0e3f63fdc592453b1c974a21') in 0.053485 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Lowpoly Style/Shared FBX Meshes/Items and Decoration/SnowyBarrels3.fbx
+  artifactKey: Guid(ff250c24d243b024687ee42deb5c2919) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared FBX Meshes/Items and Decoration/SnowyBarrels3.fbx using Guid(ff250c24d243b024687ee42deb5c2919) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6e27093c414610caf62d0972781d4b19') in 0.040732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Lowpoly Style/Shared FBX Meshes/Plants/CactusSmall.fbx
+  artifactKey: Guid(c32cef45a6e0caf44baa308a4b3ac478) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared FBX Meshes/Plants/CactusSmall.fbx using Guid(c32cef45a6e0caf44baa308a4b3ac478) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '47e3a82ab91a84574ba1ab8f33a9df01') in 0.041959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Lowpoly Style/Shared FBX Meshes/Plants/Coconut_Plant.fbx
+  artifactKey: Guid(9fb170890279eef45b028583d1efeaeb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared FBX Meshes/Plants/Coconut_Plant.fbx using Guid(9fb170890279eef45b028583d1efeaeb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eec3bbc8576f3bf68c17f7223c0819a4') in 0.056088 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Lowpoly Style/Shared FBX Meshes/Plants/AsiaTree1.fbx
+  artifactKey: Guid(be407453a8877c34d9221cccf48c4b0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared FBX Meshes/Plants/AsiaTree1.fbx using Guid(be407453a8877c34d9221cccf48c4b0d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '64c741ec4b1a2856063c595cfa29dbfc') in 0.043608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Lowpoly Style/Shared FBX Meshes/Items and Decoration/WoodenPole1.fbx
+  artifactKey: Guid(726e4aac5dc0fe346804c9adcfa5467c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared FBX Meshes/Items and Decoration/WoodenPole1.fbx using Guid(726e4aac5dc0fe346804c9adcfa5467c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f44e9da906a810c793ef9e0eb7363e55') in 0.043376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Lowpoly Style/Shared FBX Meshes/Items and Decoration/WaterBucket1.fbx
+  artifactKey: Guid(7d3157039a6193a42aea71ec18ba7590) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared FBX Meshes/Items and Decoration/WaterBucket1.fbx using Guid(7d3157039a6193a42aea71ec18ba7590) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '857d0ff22aa4c32803309bffc6285d1b') in 0.037482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Lowpoly Style/Shared FBX Meshes/Plants/Bush1.fbx
+  artifactKey: Guid(e1620dfbafad13c499d09cd743c15560) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared FBX Meshes/Plants/Bush1.fbx using Guid(e1620dfbafad13c499d09cd743c15560) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ed8179f69d995bbd608a86ff24903f5b') in 0.039790 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Lowpoly Style/Shared FBX Meshes/Plants/Conifer1_Low.fbx
+  artifactKey: Guid(19c0035f0422d5c4d9b4c51efe8fbb81) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared FBX Meshes/Plants/Conifer1_Low.fbx using Guid(19c0035f0422d5c4d9b4c51efe8fbb81) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '28b4fe852e2b4b35ee571c1d636189a6') in 0.034156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Lowpoly Style/Shared FBX Meshes/Items and Decoration/PrayerWheel.fbx
+  artifactKey: Guid(0222df7685ef3714492d76c89e75da62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared FBX Meshes/Items and Decoration/PrayerWheel.fbx using Guid(0222df7685ef3714492d76c89e75da62) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a6d5b5bb91cbb13ea0a0793c585ec794') in 0.045038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Lowpoly Style/Shared FBX Meshes/Items and Decoration/Barrel.fbx
+  artifactKey: Guid(0635c8de5e239534d9cb16dabad3abe4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared FBX Meshes/Items and Decoration/Barrel.fbx using Guid(0635c8de5e239534d9cb16dabad3abe4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c78271fb7cc332bbcc487c0c636b3b4c') in 0.052075 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Lowpoly Style/Shared FBX Meshes/Plants/Palmtree1.fbx
+  artifactKey: Guid(72d1e176a6aa6e44a983da62730a50ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared FBX Meshes/Plants/Palmtree1.fbx using Guid(72d1e176a6aa6e44a983da62730a50ab) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8dea732866f3ac791cb72c20107d84e4') in 0.048283 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Lowpoly Style/Shared FBX Meshes/Plants/JoshuaTree3.fbx
+  artifactKey: Guid(733e661e557354842ae0e7fce22fcefc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared FBX Meshes/Plants/JoshuaTree3.fbx using Guid(733e661e557354842ae0e7fce22fcefc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fcc8a06378417bc0eed6e01e4d71417d') in 0.038980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Lowpoly Style/Shared FBX Meshes/Plants/SmallPlant1_LOD.fbx
+  artifactKey: Guid(6c83ba183040e9d4ba6e054dfc8e8558) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared FBX Meshes/Plants/SmallPlant1_LOD.fbx using Guid(6c83ba183040e9d4ba6e054dfc8e8558) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6718a891df471c8e1f25452b0a7e7a2a') in 0.042195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Lowpoly Style/Shared FBX Meshes/Plants/Salad.fbx
+  artifactKey: Guid(0f90fe8c3cc6ce24191ab86d66df7736) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared FBX Meshes/Plants/Salad.fbx using Guid(0f90fe8c3cc6ce24191ab86d66df7736) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '022a47f82e5587ca60e5ae26b46540bb') in 0.044298 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Lowpoly Style/Shared FBX Meshes/Plants/DoubleTree.fbx
+  artifactKey: Guid(72ae037a19698154f9253cb10c6e47b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared FBX Meshes/Plants/DoubleTree.fbx using Guid(72ae037a19698154f9253cb10c6e47b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c220183fcf78f78a77a83ddca4b28561') in 0.042328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Lowpoly Style/Shared FBX Meshes/Plants/TallPlantRed_LOD.fbx
+  artifactKey: Guid(0025c68d7a8b62d49b8f0b39591f1889) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared FBX Meshes/Plants/TallPlantRed_LOD.fbx using Guid(0025c68d7a8b62d49b8f0b39591f1889) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a82f32289c05264875d96f0cdcd26458') in 0.043368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Lowpoly Style/Shared FBX Meshes/Plants/PlantBedA.fbx
+  artifactKey: Guid(a9b0f974fc3ea2846b2bf99ab13a9649) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared FBX Meshes/Plants/PlantBedA.fbx using Guid(a9b0f974fc3ea2846b2bf99ab13a9649) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8f30d6ee65be951c15ab6e70c0460861') in 0.037244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Lowpoly Style/Shared FBX Meshes/Plants/PalmDead2.fbx
+  artifactKey: Guid(5fc2e7c5ed68cb24392c69b0232c3c87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared FBX Meshes/Plants/PalmDead2.fbx using Guid(5fc2e7c5ed68cb24392c69b0232c3c87) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8bcb4302531e9ec44a19634d0ca47ad5') in 0.041857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Lowpoly Style/Shared FBX Meshes/Plants/SnowyDeadTree1.fbx
+  artifactKey: Guid(df71bb23cadd93f479c597b0bdd2847b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared FBX Meshes/Plants/SnowyDeadTree1.fbx using Guid(df71bb23cadd93f479c597b0bdd2847b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '93417e63a30265ae8d6f68509dc7d541') in 0.038158 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Lowpoly Style/Shared FBX Meshes/Plants/PlantBedD_Half.fbx
+  artifactKey: Guid(ebb94620cd4ed994fb3c8e3992cf63a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared FBX Meshes/Plants/PlantBedD_Half.fbx using Guid(ebb94620cd4ed994fb3c8e3992cf63a3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5c6482146c392cc60b9b84415bf8926e') in 0.041924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Lowpoly Style/Shared FBX Meshes/Collision/House_2_CollMesh.fbx
+  artifactKey: Guid(2da58fec7b188e74fa399b4a2b572c16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared FBX Meshes/Collision/House_2_CollMesh.fbx using Guid(2da58fec7b188e74fa399b4a2b572c16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a265adc0e34ec13e444b44de90a38f14') in 0.041368 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Lowpoly Style/Shared FBX Meshes/Buildings and  Structures/ZenGarden.fbx
+  artifactKey: Guid(0afbb9db6a611714a9fad4b47a464bae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared FBX Meshes/Buildings and  Structures/ZenGarden.fbx using Guid(0afbb9db6a611714a9fad4b47a464bae) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '80790e063c122de1091171c01c620f82') in 0.047781 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Lowpoly Style/Shared FBX Meshes/Terrain/TerrainA.fbx
+  artifactKey: Guid(bd7d7b03a25f7794483169a8554409d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared FBX Meshes/Terrain/TerrainA.fbx using Guid(bd7d7b03a25f7794483169a8554409d6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '368a660e49ef1e76b9b8a9879444a55e') in 0.041195 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Lowpoly Style/Shared FBX Meshes/Terrain/LavaFlowMiddle.fbx
+  artifactKey: Guid(119c34eae812c0c4fb87274768d855b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared FBX Meshes/Terrain/LavaFlowMiddle.fbx using Guid(119c34eae812c0c4fb87274768d855b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '853f68b52edc46a44b73f1672987f44f') in 0.043340 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Lowpoly Style/Shared FBX Meshes/Terrain/BASE_TERRAIN.fbx
+  artifactKey: Guid(eccf9e119e0441f4ca86f25d93871e60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared FBX Meshes/Terrain/BASE_TERRAIN.fbx using Guid(eccf9e119e0441f4ca86f25d93871e60) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '133650cdbdc5fe88ebe4d124aafb5c1e') in 0.040811 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Lowpoly Style/Shared FBX Meshes/Terrain/Cliff_A.fbx
+  artifactKey: Guid(35994084094d6794d99d3601fc43a536) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared FBX Meshes/Terrain/Cliff_A.fbx using Guid(35994084094d6794d99d3601fc43a536) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e961903f9c960c71adf4bc403a18ec80') in 0.038182 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Lowpoly Style/Shared FBX Meshes/Terrain/GrassCliff.fbx
+  artifactKey: Guid(4a5a284124fbb704b9b1a375fec3a22d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared FBX Meshes/Terrain/GrassCliff.fbx using Guid(4a5a284124fbb704b9b1a375fec3a22d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '42f6badcf528a3d9dab9927120314e9f') in 0.064151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Lowpoly Style/Shared FBX Meshes/Terrain/GrassHillFlat.fbx
+  artifactKey: Guid(7fe919ceb6d6ab041be42bda1110b68d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared FBX Meshes/Terrain/GrassHillFlat.fbx using Guid(7fe919ceb6d6ab041be42bda1110b68d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'edaf87b62c65ceee24c994360ac2cfa0') in 0.057891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Lowpoly Style/Shared FBX Meshes/Terrain/DistantBackgroundMountains.fbx
+  artifactKey: Guid(68ab19696e3f289438257d1dd860b672) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared FBX Meshes/Terrain/DistantBackgroundMountains.fbx using Guid(68ab19696e3f289438257d1dd860b672) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6f6e5ce16b0c84bbf1473ee9dd198056') in 0.038171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Lowpoly Style/Shared FBX Meshes/Rocks/RockGrey2Tropical.fbx
+  artifactKey: Guid(8ac722ea578bf8947a20a852d95b1c9c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared FBX Meshes/Rocks/RockGrey2Tropical.fbx using Guid(8ac722ea578bf8947a20a852d95b1c9c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8c06f21f0ab940828015409b70999913') in 0.041491 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Lowpoly Style/Shared FBX Meshes/Rocks/RockPassageWithTorii.fbx
+  artifactKey: Guid(b492287abc2d67a4eb535aece512f850) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared FBX Meshes/Rocks/RockPassageWithTorii.fbx using Guid(b492287abc2d67a4eb535aece512f850) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b53a5d9db0ffdf5829240a95140a6e84') in 0.043115 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Lowpoly Style/Shared FBX Meshes/Plants/TropicalPalmPC.fbx
+  artifactKey: Guid(476b6bf75cd1d9a40b03f4b8f4eea659) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared FBX Meshes/Plants/TropicalPalmPC.fbx using Guid(476b6bf75cd1d9a40b03f4b8f4eea659) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8ec02be9a5ecdb92099147d7e613d43e') in 0.052148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Lowpoly Style/Shared FBX Meshes/Plants/RadishFoul.fbx
+  artifactKey: Guid(f0e7db78070d5194c96b3a51bf7b0af5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared FBX Meshes/Plants/RadishFoul.fbx using Guid(f0e7db78070d5194c96b3a51bf7b0af5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '062a6937a0bf3c17f87ffef7eeffa973') in 0.040712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Lowpoly Style/Shared FBX Meshes/Terrain/Waterplane_Asia.fbx
+  artifactKey: Guid(412a4be1d15d12c459252cd239a86b1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared FBX Meshes/Terrain/Waterplane_Asia.fbx using Guid(412a4be1d15d12c459252cd239a86b1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c79f1385bfd9ec04d722015f3dce9aff') in 0.041596 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Lowpoly Style/Tropical Islands/Prefabs/FishGrillStickRed.prefab
+  artifactKey: Guid(2f113d7eadac2ac469824fddc7563a45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Tropical Islands/Prefabs/FishGrillStickRed.prefab using Guid(2f113d7eadac2ac469824fddc7563a45) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'be32ff94fa1e48ef6bcfd5f54f99c043') in 0.025739 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Lowpoly Style/Tropical Islands/DemoScene/TropicalIslands_Demo.unity
+  artifactKey: Guid(c6e962c8d76318a4e905c834746358a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Tropical Islands/DemoScene/TropicalIslands_Demo.unity using Guid(c6e962c8d76318a4e905c834746358a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '08a4800471281b41d8fb5775fd1413cd') in 0.019654 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/Lowpoly Style/Tropical Islands/Prefabs/FishGrillStickYellow.prefab
+  artifactKey: Guid(503c34529ad5ce94db71110319cc7396) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Tropical Islands/Prefabs/FishGrillStickYellow.prefab using Guid(503c34529ad5ce94db71110319cc7396) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1144331209f93982c0bcd7564c2fff2a') in 0.027156 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Lowpoly Style/Shared FBX Meshes/Terrain/Terrain_Waterfall.fbx
+  artifactKey: Guid(3b3d95d6e3b64f1489e81114243b358c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared FBX Meshes/Terrain/Terrain_Waterfall.fbx using Guid(3b3d95d6e3b64f1489e81114243b358c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '93aae550a2276ab57c85e6dc7923de26') in 0.046413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Lowpoly Style/Shared FBX Meshes/Terrain/WATER_TOP_FOREST.fbx
+  artifactKey: Guid(29589411997f0e845a0042eb39da552e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared FBX Meshes/Terrain/WATER_TOP_FOREST.fbx using Guid(29589411997f0e845a0042eb39da552e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2ad23c553093c079ac41af3c39f21f71') in 0.050630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Lowpoly Style/Tropical Islands/DemoScene/Tropical_PPP_V2_Linear.asset
+  artifactKey: Guid(66c090a390e27d24299c864c8eed7876) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Tropical Islands/DemoScene/Tropical_PPP_V2_Linear.asset using Guid(66c090a390e27d24299c864c8eed7876) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2d6347f8d874f448dc2031d378525333') in 0.014351 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Lowpoly Style/Tropical Islands/Prefabs/Paddle.prefab
+  artifactKey: Guid(93edc97fe8f401845a2621c105176a9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Tropical Islands/Prefabs/Paddle.prefab using Guid(93edc97fe8f401845a2621c105176a9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a627b3461748ec83fb4947a4a1343174') in 0.028637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Lowpoly Style/Shared Materials and Textures/Roof/T_Roof_Height.png
+  artifactKey: Guid(052c135cd36a0b946b3035db37985739) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared Materials and Textures/Roof/T_Roof_Height.png using Guid(052c135cd36a0b946b3035db37985739) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3bb23947128ddcd1ee2c7e31dfe6d317') in 0.051410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Lowpoly Style/Shared FBX Meshes/Terrain/CastleCliff.fbx
+  artifactKey: Guid(ce06b0b5d2c88454198a2c2affb1ad57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared FBX Meshes/Terrain/CastleCliff.fbx using Guid(ce06b0b5d2c88454198a2c2affb1ad57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5170feabbf1d91ce44d4821217bf2062') in 0.039880 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Lowpoly Style/Shared FBX Meshes/Collision/RockBase2_CollMesh.fbx
+  artifactKey: Guid(ff258763e6a5f8046aad77c2904747fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared FBX Meshes/Collision/RockBase2_CollMesh.fbx using Guid(ff258763e6a5f8046aad77c2904747fb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fdc394b21dc9476125668a06613240a1') in 0.043233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Lowpoly Style/Shared FBX Meshes/Buildings and  Structures/AsianHouse_RockBase2.fbx
+  artifactKey: Guid(531aab94f8dc0a7478740edb6b8dac84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared FBX Meshes/Buildings and  Structures/AsianHouse_RockBase2.fbx using Guid(531aab94f8dc0a7478740edb6b8dac84) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b7d44ee5a25f8f482e5335cb41518549') in 0.041639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Lowpoly Style/Shared FBX Meshes/Items and Decoration/Cart.fbx
+  artifactKey: Guid(f2d85b5b2322ebc46ade11f89fedb8b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared FBX Meshes/Items and Decoration/Cart.fbx using Guid(f2d85b5b2322ebc46ade11f89fedb8b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eec85e595b85c4c820dd3173985e2efa') in 0.039806 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Lowpoly Style/Shared FBX Meshes/Plants/RadishField_Low.fbx
+  artifactKey: Guid(9d94389f3c66a9448a8dabad92affe83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared FBX Meshes/Plants/RadishField_Low.fbx using Guid(9d94389f3c66a9448a8dabad92affe83) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '96a376ca761c3cdf1dbfa947992922a4') in 0.042949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Lowpoly Style/Asia/Prefabs/Plants/SmallPlant2.prefab
+  artifactKey: Guid(a84c9dd5ece52de4e9c37387f6e554f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Asia/Prefabs/Plants/SmallPlant2.prefab using Guid(a84c9dd5ece52de4e9c37387f6e554f6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '093bbc401b36a03eb896c8f28c3b742b') in 0.021723 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Lowpoly Style/Asia/Prefabs/Items/Candles.prefab
+  artifactKey: Guid(7d6dc2ecfb766b644a06597270aeb393) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Asia/Prefabs/Items/Candles.prefab using Guid(7d6dc2ecfb766b644a06597270aeb393) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5f1403dc607e789a772312fee154f0ab') in 0.027060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Lowpoly Style/Asia/Prefabs/Plants/PlantBedC_Filled.prefab
+  artifactKey: Guid(1781a36b8159c8e449443151063bab1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Asia/Prefabs/Plants/PlantBedC_Filled.prefab using Guid(1781a36b8159c8e449443151063bab1b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0b4f0d96cb7aa574b2a754f343a2849a') in 0.030931 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 93
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Lowpoly Style/Tropical Islands/Prefabs/TerrainPatchGreen.prefab
+  artifactKey: Guid(2b428f431bec4ad4dbb012a63ee42ad2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Tropical Islands/Prefabs/TerrainPatchGreen.prefab using Guid(2b428f431bec4ad4dbb012a63ee42ad2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2ee9e5d63fc0aee466ed23f5ef6692a4') in 0.024300 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Lowpoly Style/Asia/DemoScene/Demo/ReflectionProbe-2.exr
+  artifactKey: Guid(285081e0bc5ada845a62ff63cd1903d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Asia/DemoScene/Demo/ReflectionProbe-2.exr using Guid(285081e0bc5ada845a62ff63cd1903d9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7ce07914e7d320366971964b00451ce0') in 0.041653 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Lowpoly Style/Tropical Islands/Prefabs/RockGrey2.prefab
+  artifactKey: Guid(da8fe8f1435da7e4fb291006768ecb07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Tropical Islands/Prefabs/RockGrey2.prefab using Guid(da8fe8f1435da7e4fb291006768ecb07) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '081e41e80065c7fc3aab1b8047c8cb5a') in 0.034796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Lowpoly Style/Tropical Islands/Prefabs/PalmLeaf.prefab
+  artifactKey: Guid(1648264f699f0924fb982f2f3e16792f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Tropical Islands/Prefabs/PalmLeaf.prefab using Guid(1648264f699f0924fb982f2f3e16792f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ba7a985ad87c5b051dbe9751714f2e08') in 0.025942 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Lowpoly Style/Asia/Prefabs/Plants/SingleTree_Green.prefab
+  artifactKey: Guid(74876d688c76b0a4e977b8cca8a56d9c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Asia/Prefabs/Plants/SingleTree_Green.prefab using Guid(74876d688c76b0a4e977b8cca8a56d9c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '30e9a6c6b3841ec43cbc0d0097f2923c') in 0.018188 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Lowpoly Style/Tropical Islands/Prefabs/Signpost1.prefab
+  artifactKey: Guid(461cd9e0b69fae647915e43597229c5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Tropical Islands/Prefabs/Signpost1.prefab using Guid(461cd9e0b69fae647915e43597229c5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eab084718b618e47196cd331a8e1402e') in 0.027850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Lowpoly Style/Asia/Prefabs/Items/BeerEmpty.prefab
+  artifactKey: Guid(ac9d061f4328b0c4d8e87f57b7ae925a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Asia/Prefabs/Items/BeerEmpty.prefab using Guid(ac9d061f4328b0c4d8e87f57b7ae925a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '55bb7f1fe1d0d7fc1f6c427bf2bb01c3') in 0.025910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Lowpoly Style/Asia/Prefabs/Plants/PlantBedD_Half.prefab
+  artifactKey: Guid(ca589bce5a6b7784db3a3323d48661c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Asia/Prefabs/Plants/PlantBedD_Half.prefab using Guid(ca589bce5a6b7784db3a3323d48661c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9767e018c5b3f440f4388948d75e779d') in 0.034564 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 119
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Lowpoly Style/Tropical Islands/Prefabs/Palm3_straight.prefab
+  artifactKey: Guid(2279935e2e287a84ab2b061718a0d63f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Tropical Islands/Prefabs/Palm3_straight.prefab using Guid(2279935e2e287a84ab2b061718a0d63f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aff995dba1841062c6a2d1f02774d8fc') in 0.027920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Lowpoly Style/Asia/Prefabs/Items/SmallTable.prefab
+  artifactKey: Guid(47f41e8f35b6f694ea8739f214f620af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Asia/Prefabs/Items/SmallTable.prefab using Guid(47f41e8f35b6f694ea8739f214f620af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a5a4cc28036713187769a3a244fd370d') in 0.027167 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Lowpoly Style/Tropical Islands/Prefabs/Coconut.prefab
+  artifactKey: Guid(b2cb328643ac2cf40814421d70e88421) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Tropical Islands/Prefabs/Coconut.prefab using Guid(b2cb328643ac2cf40814421d70e88421) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '420698194f887f4dc58f07bfaa356486') in 0.028389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Lowpoly Style/Asia/DemoScene/Demo/ReflectionProbe-0.exr
+  artifactKey: Guid(2c57d6a0875908a419b73e584e11c2ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Asia/DemoScene/Demo/ReflectionProbe-0.exr using Guid(2c57d6a0875908a419b73e584e11c2ea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2f0c357755ceea0d9c85398705c26df7') in 0.042139 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Lowpoly Style/Shared FBX Meshes/Rocks/Rock.fbx
+  artifactKey: Guid(c4e53af42a3e8ea4db4059fe40cca76d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared FBX Meshes/Rocks/Rock.fbx using Guid(c4e53af42a3e8ea4db4059fe40cca76d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6cc0e022a58b88976f9a2f0a7f7b7ba5') in 0.047919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Lowpoly Style/Asia/Prefabs/Plants/WaterLilies.prefab
+  artifactKey: Guid(de175f11fcdde944bb5e9ad0930982d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Asia/Prefabs/Plants/WaterLilies.prefab using Guid(de175f11fcdde944bb5e9ad0930982d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9eaa919f17cd21ed741d8adddcb65320') in 0.023070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Lowpoly Style/Tropical Islands/DemoScene/Reflection Probes/RP_WATER2.exr
+  artifactKey: Guid(8cb907053ddaad245b79d321cc8fa817) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Tropical Islands/DemoScene/Reflection Probes/RP_WATER2.exr using Guid(8cb907053ddaad245b79d321cc8fa817) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c1fe857c840ebc2628ddd3cd09582818') in 0.038744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Lowpoly Style/Asia/Prefabs/Plants/SmallTree1.prefab
+  artifactKey: Guid(a027d954bf899be438e41eacb51cab4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Asia/Prefabs/Plants/SmallTree1.prefab using Guid(a027d954bf899be438e41eacb51cab4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c0144bfe986426bca3ecd6dc917f853e') in 0.019656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Lowpoly Style/Asia/Prefabs/Plants/DoubleTree_Green.prefab
+  artifactKey: Guid(1b187fae2cf3fff4f94f83aaa3b64287) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Asia/Prefabs/Plants/DoubleTree_Green.prefab using Guid(1b187fae2cf3fff4f94f83aaa3b64287) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e9167c89f6d67b64c421e8aee7a5e471') in 0.017661 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Lowpoly Style/Shared Materials and Textures/Main.psd
+  artifactKey: Guid(02d49609947026e41b35727959d37e2a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared Materials and Textures/Main.psd using Guid(02d49609947026e41b35727959d37e2a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bc7773e96c55f6d2731e00012458a421') in 0.051365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Lowpoly Style/ForestPack/Prefabs/Bush.prefab
+  artifactKey: Guid(41113eaa73613bf46b4a11e8f0f7986e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/ForestPack/Prefabs/Bush.prefab using Guid(41113eaa73613bf46b4a11e8f0f7986e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd129334ec003b14242aef7446d94a358') in 0.028440 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Lowpoly Style/Asia/Prefabs/Cabbage.prefab
+  artifactKey: Guid(3648cc4f7cef2e143987bfdf6f186276) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Asia/Prefabs/Cabbage.prefab using Guid(3648cc4f7cef2e143987bfdf6f186276) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9bcd8428532fd263502584c1bcc908f6') in 0.031021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Lowpoly Style/Shared FBX Meshes/Items and Decoration/FishGrillStickRed.fbx
+  artifactKey: Guid(ec2d8f4041aa9d4448330307e922584b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared FBX Meshes/Items and Decoration/FishGrillStickRed.fbx using Guid(ec2d8f4041aa9d4448330307e922584b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '768af992017ebca3fe2c0cdbb6995872') in 0.042273 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Lowpoly Style/Asia/Prefabs/CabbageField_Low.prefab
+  artifactKey: Guid(fabb4c3ad1f11d448a93cac709084e27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Asia/Prefabs/CabbageField_Low.prefab using Guid(fabb4c3ad1f11d448a93cac709084e27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8bc8d10b07b5132f21125a08ad7d35d5') in 0.025878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Lowpoly Style/Shared Materials and Textures/MAT_SAND_BASE.mat
+  artifactKey: Guid(eff5fe3891762334a8ab18025c35b803) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Shared Materials and Textures/MAT_SAND_BASE.mat using Guid(eff5fe3891762334a8ab18025c35b803) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8219740e4be381eb17e98b09eb020c98') in 0.024493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Lowpoly Style/Desert/Prefabs/OldWoodPlank1.prefab
+  artifactKey: Guid(9f76005794db1cf439aa28dfb2f30df5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Lowpoly Style/Desert/Prefabs/OldWoodPlank1.prefab using Guid(9f76005794db1cf439aa28dfb2f30df5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c390aa5b121b4c061aa8dccf003f22ef') in 0.033411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 由于线程退出或应用程序请求，已中止 I/O 操作。
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
